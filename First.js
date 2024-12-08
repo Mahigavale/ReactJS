@@ -1,0 +1,6 @@
+
+
+function givealert()
+{
+    alert("demo !");
+}
