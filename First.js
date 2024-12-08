@@ -1,6 +1,0 @@
-
-
-function givealert()
-{
-    alert("demo !");
-}
