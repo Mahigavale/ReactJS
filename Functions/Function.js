@@ -1,3 +1,5 @@
+//mkdir folder_name
+
 
 //function => reusable code block to compute something again and again.
 
