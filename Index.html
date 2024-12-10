@@ -7,12 +7,14 @@
     <script>console.log("hii js from head tag !")</script>
 </head>
 <body>
-    <h1 style="color: green;">This is demo html page !</h1>
+    <h1 style="color: green;" id="unique">This is demo html page !</h1>
     <h2>with js.</h2>
     
     <script>console.log("hii js from body tag !")</script>
     <script src="./First.js"></script>
 
     <button onclick="window.print()">ClickToPrint</button>
+    <button onclick="document.write('<h1>This is the overwritten document !</h1>')">Overwrite</button>
+    <button onclick="document.getElementById('unique').innerHTML='changed !'">click to change !</button>
 </body>
 </html>
