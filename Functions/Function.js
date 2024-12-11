@@ -29,5 +29,28 @@
 
 
 
+function myfunction()
+{
+
+    console.log("myfunction  !");
+    
+}
 
 
+myfunction();
+
+console.log(myfunction);
+
+
+
+//defualt values overriding.
+
+//returning functions.
+
+function add(num1=100,num2=100)
+{
+return num1+num2;
+}
+
+
+console.log(add(123,123));

@@ -21,3 +21,32 @@ it is not nescessarily the same data types.
 
 
 
+
+let array_one=[10,20,30,'city',6767,123,567,890];
+//8 size
+//0-7
+
+let arr2=new Array();
+ arr2[0]="city";
+ arr2[1]=67;
+
+console.log(typeof(array_one));
+
+
+console.log(array_one);
+
+console.log(arr2);
+
+console.log(array_one.length);
+
+
+
+if(array_one.length >5)
+{
+    
+console.log("it is a big array !");
+}
+
+
+
+

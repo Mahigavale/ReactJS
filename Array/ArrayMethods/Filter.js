@@ -7,3 +7,23 @@ condition.
 
 => doesn't modify the original array.
 */
+
+
+
+
+let nums=[12,13,18,19,2,32];
+
+
+let num2=nums.filter(vote);
+
+
+function vote(n)
+{
+    if(n>=18)
+    {
+        return n;
+    }
+}
+
+
+console.log(num2);

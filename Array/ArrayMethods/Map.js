@@ -13,3 +13,51 @@
 
 
 
+let arr=[2,4,6,8,10];   //[8 , 10]
+
+
+
+let arr2=arr.map(gretater)
+
+function gretater(n)
+{
+    if(n>=8)
+    {
+       return n;
+        
+    }
+}
+
+
+// console.log(arr2);
+
+
+// console.log(arr2.length);
+// console.log(arr.length);
+
+
+
+
+
+
+
+
+let arr3=[17,21,13,56,34,12,78];
+
+
+
+function vote(n)
+{
+    if(n>=18)
+
+        return n;
+
+    }
+
+
+    let arr4=arr3.map(vote);
+
+    console.log(arr4);
+
+    //data inconsistency.
+    

@@ -16,3 +16,52 @@
 
 
 
+
+let arr=[10,11,12,13,14,15];
+
+
+
+// arr.forEach(Increase)
+
+
+
+
+
+// function Increase(n)
+// {
+//  console.log(++n);
+
+// }
+
+
+
+
+
+let arr2=[111,23,37,7,13,22];
+
+
+
+arr2.forEach(OddEven);
+
+
+
+
+function OddEven(n)
+{
+
+    if(n%2==0)
+    {
+        console.log(n,"even");
+
+    }
+    else
+    {
+        console.log(n,"odd");
+        
+    }
+
+}
+
+
+
+
