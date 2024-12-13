@@ -9,4 +9,15 @@
 */
 
 
+//flat [[[[[]]]]]=>[]
+    //depth 
+//Infinity
+let nums=[10,[20,[30,[67,78,89],56,34],40],50];
+
+
+console.log(nums.flat(Infinity));
+
+
+
+
 

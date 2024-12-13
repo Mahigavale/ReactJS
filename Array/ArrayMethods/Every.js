@@ -30,6 +30,12 @@ function Even(n)
 
 let arr2=[11,22,44,66,88,44];
 
-//
-console.log(arr2.every(Even));
+//logical or :some
+//logical and :every
+console.log("Every:" ,arr2.every(Even));
+
+console.log("Some :",arr2.some(Even));
+
+
+
 
