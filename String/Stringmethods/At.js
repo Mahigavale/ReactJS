@@ -7,4 +7,12 @@
 */
 
 
+let Str="helloworld!";
+
+console.log(Str.at());
+console.log(Str.at(-1));
+
+console.log(Str);
+
+
 

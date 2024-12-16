@@ -7,5 +7,20 @@
 
 
 
+let str="helloworld!";
+
+console.log(str.split());
+console.log(str.split(''));
+console.log(str.split('l'));
+
+
+let demo="Ab*c*dke*doe*dep*e";
+
+
+console.log(demo.split('*'));
+
+
+
+
 
 
