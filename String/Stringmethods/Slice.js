@@ -9,3 +9,12 @@
 */
 
 
+
+let str="Iamthebest!";
+
+console.log(str.slice(1,-4));
+console.log(str.slice(1,7));
+
+//11-4=> 7
+
+

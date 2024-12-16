@@ -7,5 +7,14 @@
 
 =>deprecated :=>legacy feature for the browser compatability.
 
+=> it takes the negative values as argument.
 */
+let str="demostring!";
+
+
+console.log(str.substr(1,4));
+
+console.log(str.substr(2));
+
+console.log(str.substr(-2));
 

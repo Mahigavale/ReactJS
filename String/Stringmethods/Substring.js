@@ -8,4 +8,12 @@
  =>If any argument is negative or is NaN, it is treated as 0.
 */
 
+let str="iamthebest!";
+
+console.log(str.substring(1,4));
+console.log(str.substring(4,1)); //<=>
+
+
+    console.log(str.substring(-67,4));
+    
 
