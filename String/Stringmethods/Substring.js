@@ -11,9 +11,7 @@
 let str="iamthebest!";
 
 console.log(str.substring(1,4));
-console.log(str.substring(4,1)); //<=>
-
-
+console.log(str.substring(4,1)); //<=>  swaps the arguments.
     console.log(str.substring(-67,4));
     
 
