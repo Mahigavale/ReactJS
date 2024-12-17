@@ -4,3 +4,10 @@
 */
 
 
+
+let str="i am the the the the best !";
+
+console.log("First Ocuurence :",str.indexOf("the"));
+console.log("Last Occurence :",str.lastIndexOf("the"));
+
+

@@ -5,3 +5,7 @@
 */
 
 
+let str="I am the the The best!";
+
+
+console.log(str.match(/the/gi));
