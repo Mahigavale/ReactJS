@@ -11,3 +11,15 @@
   which means you cannot use them before their declaration.
 */
 
+
+//number=70;
+console.log("line number 16:",number);
+number=20;
+console.log("line number 18:",number);
+var number;
+
+
+console.log(names);
+//temporal dead zone.
+let names="John";
+console.log(names);
