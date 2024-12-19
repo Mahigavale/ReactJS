@@ -8,7 +8,7 @@ let Arr = Str.split('');
 
 //String.split()=>Arr=>filter, map=> new array => String => array.join();
 
-let Arr2 = Arr.map(change_case); //
+let Arr2 = Arr.map(change_case); 
 
 
 function change_case(n) {
