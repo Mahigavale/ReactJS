@@ -9,4 +9,28 @@
 
 
 
+let Person={
+    name:"John",
+    city:"latur",
+    region:"marathwada"
+
+}
+
+
+let arr=Object.keys(Person);
+
+let arr1=Object.values(Person);
+
+console.log(arr);
+console.log(arr1);
+
+
+let arr2=Object.entries(Person);
+
+
+for(let[k,v] of arr2)
+{
+    console.log(`${k}`,`${v}`);
+    
+}
 
