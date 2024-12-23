@@ -34,3 +34,4 @@ for(let[k,v] of arr2)
     
 }
 
+//Object =>Map  or Iterable.
