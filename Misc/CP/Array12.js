@@ -64,7 +64,7 @@
     //     return n>15;
     // }));
     
-    let arr=[10,13,14,17,19,21,34,67];
+    // let arr=[10,13,14,17,19,21,34,67];
 
     // console.log(arr.includes(13));
 
@@ -75,6 +75,76 @@
 
 
     
+
+// let x=23;
+// //let x has value of 23 here
+// function demo()
+// {
+//     // here the x overshadows the outer variable.
+//     let x=67;
+
+//     console.log(x);
     
+// }
     
+// demo();
+// console.log(x);
+
     
+
+// var v=45;
+
+
+// if(true)
+// {
+//     var v=78;
+//     console.log(v);
+    
+// }
+// console.log(v);
+
+    
+
+//let v=67;
+
+// let z=78;
+
+// if(true)
+// {
+//     var v=56;
+//     let z=89;
+
+//     console.log(v,z);
+    
+// }
+
+
+// console.log(v,z);
+
+
+let fruit='apple';
+
+//let is block scoped so it behaves differently
+
+for(let fruit=1; fruit <=4;fruit++)
+{
+
+    //inner scope >>outer scope.
+    console.log(`${fruit}`);
+    
+}
+console.log(fruit);
+
+//var is function scoped so it behaves differently.
+
+//use const and let over var for the purpose of the shadowing.
+
+
+var demo="apple";
+
+for(var demo=0;demo<=4;demo++)
+{
+console.log(demo);
+
+}
+console.log(demo);
