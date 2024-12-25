@@ -57,16 +57,16 @@ console.log(third);
 
 
 //
-function Add(...numbers)  //[]  //rest Operator
+function Add(...n)  //[]  //rest Operator
 {
-    return numbers.reduce((total,n)=>
+    return n.reduce((total,n)=>
     {
         return total+=n;
     })
 }
 
 console.log(Add(10,20,30));
-console.log(Add(10,20,30,40,50,60));
+console.log(Add('a','b','c'));
 
 
 
