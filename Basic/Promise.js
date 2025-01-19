@@ -134,8 +134,14 @@ const Obj = {
 }
 
 
+
+
 function adddata() {
     return new Promise((res, rej) => {
+
+
+
+
 
         if (Obj.mobile.length == 10) {
             return res(Obj);
