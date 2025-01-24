@@ -96,7 +96,7 @@
 
 //Delete the Data
 
-const id = 6
+const id = 6 
 const delete_data = fetch(`http://localhost:8080/delete-emp/${id}`,
     {
         method: 'DELETE',
